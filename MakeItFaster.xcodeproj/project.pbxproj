@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F890C0671D8801C400414912 /* MakeItFasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F890C0661D8801C400414912 /* MakeItFasterUITests.swift */; };
 		F8C7957E1D87EFEE000E409C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C7957D1D87EFEE000E409C /* AppDelegate.swift */; };
 		F8C795801D87EFEE000E409C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C7957F1D87EFEE000E409C /* ViewController.swift */; };
 		F8C795831D87EFEE000E409C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C795811D87EFEE000E409C /* Main.storyboard */; };
@@ -16,6 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F890C0691D8801C400414912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8C795721D87EFEE000E409C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C795791D87EFEE000E409C;
+			remoteInfo = MakeItFaster;
+		};
 		F8C7958F1D87EFEE000E409C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F8C795721D87EFEE000E409C /* Project object */;
@@ -26,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F890C0641D8801C400414912 /* MakeItFasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeItFasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F890C0661D8801C400414912 /* MakeItFasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeItFasterUITests.swift; sourceTree = "<group>"; };
+		F890C0681D8801C400414912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8C7957A1D87EFEE000E409C /* MakeItFaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeItFaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C7957D1D87EFEE000E409C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8C7957F1D87EFEE000E409C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +50,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F890C0611D8801C400414912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8C795771D87EFEE000E409C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -56,11 +74,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F890C0651D8801C400414912 /* MakeItFasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F890C0661D8801C400414912 /* MakeItFasterUITests.swift */,
+				F890C0681D8801C400414912 /* Info.plist */,
+			);
+			path = MakeItFasterUITests;
+			sourceTree = "<group>";
+		};
 		F8C795711D87EFEE000E409C = {
 			isa = PBXGroup;
 			children = (
 				F8C7957C1D87EFEE000E409C /* MakeItFaster */,
 				F8C795911D87EFEE000E409C /* MakeItFasterTests */,
+				F890C0651D8801C400414912 /* MakeItFasterUITests */,
 				F8C7957B1D87EFEE000E409C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +98,7 @@
 			children = (
 				F8C7957A1D87EFEE000E409C /* MakeItFaster.app */,
 				F8C7958E1D87EFEE000E409C /* MakeItFasterTests.xctest */,
+				F890C0641D8801C400414912 /* MakeItFasterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +128,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F890C0631D8801C400414912 /* MakeItFasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F890C06D1D8801C400414912 /* Build configuration list for PBXNativeTarget "MakeItFasterUITests" */;
+			buildPhases = (
+				F890C0601D8801C400414912 /* Sources */,
+				F890C0611D8801C400414912 /* Frameworks */,
+				F890C0621D8801C400414912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F890C06A1D8801C400414912 /* PBXTargetDependency */,
+			);
+			name = MakeItFasterUITests;
+			productName = MakeItFasterUITests;
+			productReference = F890C0641D8801C400414912 /* MakeItFasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		F8C795791D87EFEE000E409C /* MakeItFaster */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8C795971D87EFEE000E409C /* Build configuration list for PBXNativeTarget "MakeItFaster" */;
@@ -144,6 +191,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = mantro.net;
 				TargetAttributes = {
+					F890C0631D8801C400414912 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F8C795791D87EFEE000E409C;
+					};
 					F8C795791D87EFEE000E409C = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -168,11 +219,19 @@
 			targets = (
 				F8C795791D87EFEE000E409C /* MakeItFaster */,
 				F8C7958D1D87EFEE000E409C /* MakeItFasterTests */,
+				F890C0631D8801C400414912 /* MakeItFasterUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F890C0621D8801C400414912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8C795781D87EFEE000E409C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,6 +252,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F890C0601D8801C400414912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F890C0671D8801C400414912 /* MakeItFasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8C795761D87EFEE000E409C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,6 +280,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F890C06A1D8801C400414912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C795791D87EFEE000E409C /* MakeItFaster */;
+			targetProxy = F890C0691D8801C400414912 /* PBXContainerItemProxy */;
+		};
 		F8C795901D87EFEE000E409C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F8C795791D87EFEE000E409C /* MakeItFaster */;
@@ -240,6 +312,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F890C06B1D8801C400414912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MakeItFasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.mantro.MakeItFasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MakeItFaster;
+			};
+			name = Debug;
+		};
+		F890C06C1D8801C400414912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MakeItFasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.mantro.MakeItFasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MakeItFaster;
+			};
+			name = Release;
+		};
 		F8C795951D87EFEE000E409C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -374,6 +468,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F890C06D1D8801C400414912 /* Build configuration list for PBXNativeTarget "MakeItFasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F890C06B1D8801C400414912 /* Debug */,
+				F890C06C1D8801C400414912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F8C795751D87EFEE000E409C /* Build configuration list for PBXProject "MakeItFaster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -390,6 +492,7 @@
 				F8C795991D87EFEE000E409C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8C7959A1D87EFEE000E409C /* Build configuration list for PBXNativeTarget "MakeItFasterTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +501,7 @@
 				F8C7959C1D87EFEE000E409C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
