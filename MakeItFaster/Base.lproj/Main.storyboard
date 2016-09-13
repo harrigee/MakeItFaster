@@ -28,7 +28,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.031372549020000001" green="0.59215686270000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.2588235438" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="AQ5-9O-K6o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6CM-42-DtA"/>
                             <constraint firstItem="AQ5-9O-K6o" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="C7R-Qw-wab"/>
@@ -64,7 +64,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.29803921570000003" green="0.50980392159999999" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.031372549020000001" green="0.59215686270000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="2XW-VF-U1f" firstAttribute="centerY" secondItem="zGN-D7-eSV" secondAttribute="centerY" id="Uey-3K-Rhq"/>
                             <constraint firstItem="2XW-VF-U1f" firstAttribute="centerX" secondItem="zGN-D7-eSV" secondAttribute="centerX" id="ZJx-Cp-63L"/>
@@ -96,7 +96,7 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.98823529409999999" green="0.67450980390000004" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="vI8-Ia-5Al" firstAttribute="centerX" secondItem="RoI-sB-Nxo" secondAttribute="centerX" id="Y79-uR-6eJ"/>
                             <constraint firstItem="vI8-Ia-5Al" firstAttribute="centerY" secondItem="RoI-sB-Nxo" secondAttribute="centerY" id="jcw-oN-deb"/>
