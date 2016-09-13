@@ -57,8 +57,6 @@ platform :ios do
     # Push the new commit and tag back to your git remote
     push_to_git_remote
 
-    screenshots
-
     gym(scheme: "MakeItFaster", use_legacy_build_api:"true") # Build your app - more options available
 
     testflight
