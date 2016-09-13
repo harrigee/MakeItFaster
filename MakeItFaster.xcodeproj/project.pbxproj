@@ -112,8 +112,8 @@
 				F8C7957D1D87EFEE000E409C /* AppDelegate.swift */,
 				F8C7957F1D87EFEE000E409C /* ViewController.swift */,
 				F8C795811D87EFEE000E409C /* Main.storyboard */,
-				F8C795841D87EFEE000E409C /* Assets.xcassets */,
 				F8C795861D87EFEE000E409C /* LaunchScreen.storyboard */,
+				F8C795841D87EFEE000E409C /* Assets.xcassets */,
 				F8C795891D87EFEE000E409C /* Info.plist */,
 			);
 			path = MakeItFaster;
@@ -356,6 +356,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: mantro.net GmbH (E743ZL3AR9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -427,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = MakeItFaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.mantro.MakeItFaster;
@@ -438,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = MakeItFaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.mantro.MakeItFaster;
