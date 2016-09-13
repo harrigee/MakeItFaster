@@ -1,0 +1,7 @@
+app_identifier "net.mantro.MakeItFaster" # The bundle identifier of your app
+apple_id "stefan.gregor@mantro.net" # Your Apple email address
+
+team_id "E743ZL3AR9"  # Developer Portal Team ID
+
+# you can even provide different app identifiers, Apple IDs and team names per lane:
+# More information: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Appfile.md
