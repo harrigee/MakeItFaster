@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F890C0671D8801C400414912 /* MakeItFasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F890C0661D8801C400414912 /* MakeItFasterUITests.swift */; };
+		F890C06F1D88108000414912 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F890C06E1D88108000414912 /* SnapshotHelper.swift */; };
 		F8C7957E1D87EFEE000E409C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C7957D1D87EFEE000E409C /* AppDelegate.swift */; };
 		F8C795801D87EFEE000E409C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C7957F1D87EFEE000E409C /* ViewController.swift */; };
 		F8C795831D87EFEE000E409C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C795811D87EFEE000E409C /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 		F890C0641D8801C400414912 /* MakeItFasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeItFasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F890C0661D8801C400414912 /* MakeItFasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeItFasterUITests.swift; sourceTree = "<group>"; };
 		F890C0681D8801C400414912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F890C06E1D88108000414912 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		F8C7957A1D87EFEE000E409C /* MakeItFaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeItFaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C7957D1D87EFEE000E409C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8C7957F1D87EFEE000E409C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		F890C0651D8801C400414912 /* MakeItFasterUITests */ = {
 			isa = PBXGroup;
 			children = (
+				F890C06E1D88108000414912 /* SnapshotHelper.swift */,
 				F890C0661D8801C400414912 /* MakeItFasterUITests.swift */,
 				F890C0681D8801C400414912 /* Info.plist */,
 			);
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F890C0671D8801C400414912 /* MakeItFasterUITests.swift in Sources */,
+				F890C06F1D88108000414912 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +479,7 @@
 				F890C06C1D8801C400414912 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8C795751D87EFEE000E409C /* Build configuration list for PBXProject "MakeItFaster" */ = {
 			isa = XCConfigurationList;
