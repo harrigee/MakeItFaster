@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = "Make It Faster!"
     }
     
     override func viewWillAppear(animated: Bool) {

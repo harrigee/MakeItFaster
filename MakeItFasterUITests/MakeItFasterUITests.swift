@@ -17,8 +17,8 @@ class MakeItFasterUITests: XCTestCase {
         
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
-        // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
         
+        // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
         let app = XCUIApplication()
         setupSnapshot(app)
         app.launch()
@@ -26,14 +26,23 @@ class MakeItFasterUITests: XCTestCase {
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
     
+    
+    func testNavigation() {
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+        let app = XCUIApplication()
+        snapshot("FAST")
+        app.buttons["Fast!"].tap()
+        snapshot("TEST")
+        app.buttons["Test!"].tap()
+        snapshot("BETTER")
+        app.navigationBars["Make It Better...!"].childrenMatchingType(.Button).matchingIdentifier("Back").elementBoundByIndex(0).tap()
+        app.navigationBars["Make It More Testable!"].childrenMatchingType(.Button).matchingIdentifier("Back").elementBoundByIndex(0).tap()        
+    }
+    
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
 }
