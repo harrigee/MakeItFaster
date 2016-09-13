@@ -1,8 +1,7 @@
 # Make It Faster!
 
 
---
-### This Project is about fastlane deployment tests
+### This Project is about fastlane deployment
 
 Here is a lamb:
 
