@@ -59,7 +59,7 @@ platform :ios do
 
     gym(scheme: "MakeItFaster", use_legacy_build_api:"true") # Build your app - more options available
 
-    testflight
+    testflight(skip_waiting_for_build_processing: true)
 
     # sh "your_script.sh"
     # You can also use other beta testing services here (run `fastlane actions`)
