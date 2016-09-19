@@ -30,7 +30,6 @@ platform :ios do
   desc "Makes screenshots and delivers them to the AppStore"
   lane :screenshots do
     snapshot
-    deliver
   end
 
   desc "Submit a new Beta Build to Apple TestFlight"
